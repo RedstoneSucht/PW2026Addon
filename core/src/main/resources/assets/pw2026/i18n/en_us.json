@@ -27,9 +27,6 @@
       "enabled": {
         "name": "Addon Enabled"
       },
-      "gamemode": {
-        "name": "Show gamemode"
-      },
       "permanav": {
         "name": "Show PW2026 Navbar-Tab permanently"
       }
@@ -49,6 +46,9 @@
       },
       "regionname": {
         "name": "Region name"
+      },
+      "queue": {
+        "name": "Queue"
       }
     }
   },

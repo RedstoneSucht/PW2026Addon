@@ -11,17 +11,11 @@ public class PW2026AddonConfig extends AddonConfig {
   @SwitchSetting
   private final ConfigProperty<Boolean> enabled = new ConfigProperty<>(true);
   @SwitchSetting
-  private final ConfigProperty<Boolean> gamemode = new ConfigProperty<>(true);
-  @SwitchSetting
   private final ConfigProperty<Boolean> permanav = new ConfigProperty<>(false);
 
   @Override
   public ConfigProperty<Boolean> enabled() {
     return this.enabled;
-  }
-
-  public ConfigProperty<Boolean> showGamemode() {
-    return this.gamemode;
   }
 
   public ConfigProperty<Boolean> getPermanav() {

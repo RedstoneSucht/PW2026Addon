@@ -20,6 +20,9 @@ public class HudDataManager {
     ClaimpointsHudWidget.setData(claimPoints);
   }
 
+  public static void setQueue(int position) {
+    QueuePositionHudWidget.setData(position);
+  }
   public static void setOnlineGlobal(int onlineGlobal) {
     OnlineGlobalHudWidget.setData(onlineGlobal);
   }
@@ -39,5 +42,6 @@ public class HudDataManager {
     setOnlineGlobal(-1);
     setOnlineWorld(-1);
     setOnlineTeam(-1);
+    setQueue(-1);
   }
 }

@@ -4,9 +4,11 @@ import de.projektweihnachten.laby.addon2026.activities.PW2026NavigationElement;
 import de.projektweihnachten.laby.addon2026.hud.HudDataManager;
 import de.projektweihnachten.laby.addon2026.hud.widgets.*;
 import de.projektweihnachten.laby.addon2026.packets.GameinfoPacket;
+import de.projektweihnachten.laby.addon2026.packets.QueuePacket;
 import de.projektweihnachten.laby.addon2026.packets.RegionPacket;
 import de.projektweihnachten.laby.addon2026.packets.ServerPacket;
 import de.projektweihnachten.laby.addon2026.packets.handler.GameinfoHandler;
+import de.projektweihnachten.laby.addon2026.packets.handler.QueueHandler;
 import de.projektweihnachten.laby.addon2026.packets.handler.RegionHandler;
 import de.projektweihnachten.laby.addon2026.packets.handler.ServerHandler;
 import net.labymod.api.Laby;
@@ -63,6 +65,7 @@ public class PW2026Addon extends LabyAddon<PW2026AddonConfig> {
     protocol.registerPacket(0, GameinfoPacket.class, Direction.CLIENTBOUND,new GameinfoHandler());
     protocol.registerPacket(1, RegionPacket.class, Direction.CLIENTBOUND,new RegionHandler());
     protocol.registerPacket(2, ServerPacket.class, Direction.CLIENTBOUND,new ServerHandler());
+    protocol.registerPacket(3, QueuePacket.class, Direction.CLIENTBOUND,new QueueHandler());
 
     protocolService.registry().registerProtocol(protocol);
 
