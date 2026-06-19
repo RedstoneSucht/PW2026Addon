@@ -57,6 +57,7 @@ public class PW2026Addon extends LabyAddon<PW2026AddonConfig> {
         .register(new OnlineGlobalHudWidget("online_global", hudIcon));
     this.labyAPI().hudWidgetRegistry().register(new OnlineWorldHudWidget("online_world", hudIcon));
     this.labyAPI().hudWidgetRegistry().register(new RegionNameHudWidget("regionname", hudIcon));
+    this.labyAPI().hudWidgetRegistry().register(new QueuePositionHudWidget("queue", hudIcon));
 
     LabyModProtocolService protocolService = Laby.references().labyModProtocolService();
 
