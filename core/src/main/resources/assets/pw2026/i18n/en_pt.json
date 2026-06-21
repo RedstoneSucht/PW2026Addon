@@ -1,0 +1,63 @@
+{
+  "pw2026": {
+    "activity": {
+      "tab": "PW2026",
+      "title": {
+        "info": "region chart o' the seas",
+        "settings": "region riggin'",
+        "warning": "Arrr! This region ain't part o' yer crew, so ye can't tweak any o' the settin's!"
+      },
+      "messages": {
+        "perms": "Permissions fer other crews:",
+        "notpwserver": "Arrr! Ye ain't sailin' on the official Projekt Weihnachten server!\nFind more info at:\n\nhttps://projekt-weihnachten.de/",
+        "notpwserver-button": "Join Projekt Weihnachten",
+        "unknowngamemode": {
+          "title": "Lost GPS signal, matey",
+          "info": "Shiver me timbers! We can't figure out where ye be right now!\nSo we can't show ye any info about these waters."
+        },
+        "noowner": "owner unknown",
+        "noname": "unnamed isle",
+        "owner": "captain: ",
+        "name": "isle name: ",
+        "noperms": "No permissions aboard"
+      }
+    },
+    "settings": {
+      "name": "Projekt Weihnachten 2026",
+      "enabled": {
+        "name": "Addon Hoisted"
+      },
+      "permanav": {
+        "name": "Keep the PW2026 Navbar Tab hoisted at all times"
+      }
+    },
+    "hudWidget": {
+      "online_global": {
+        "name": "Sailors (Global)"
+      },
+      "online_world": {
+        "name": "Sailors (World)"
+      },
+      "online_team": {
+        "name": "Crewmates"
+      },
+      "claimpoints": {
+        "name": "Claim Doubloons"
+      },
+      "regionname": {
+        "name": "Isle Name"
+      },
+      "queue": {
+        "name": "Queue"
+      }
+    }
+  },
+  "labymod": {
+    "hudWidgetCategory": {
+      "pw2026": {
+        "name": "Projekt Weihnachten",
+        "description": "Widgets fer PW2026"
+      }
+    }
+  }
+}
